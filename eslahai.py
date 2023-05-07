@@ -1,6 +1,12 @@
                                             ##  In The Name Of "Yegane Codnevise AAlame Hasti"  ##
 
 
+# input Cipher Text
+# Output Key
+
+
+
+
 # Create Dictionaries to Store the Mappings
 alphabet_dict = {
 'a' : 0,'b' : 1,'c' : 2,'d' : 3,'e' : 4,'f' : 5,'g' : 6,'h' : 7,'i' : 8,'j' : 9,
@@ -71,6 +77,26 @@ def index_of_coincidence(cipherText):
     else:
         ic = 0.0
     return ic
+
+def calLenthOfKey(cipherText):
+    # Calculating the lengh of the key
+    pass
+
+
+def calKey(cipherText, keyLenght):
+    # Calculating the key
+    pass
+
+
+
+
+
+
+
+
+
+
+
 
 
 name = input ("Please Enter Your Name :")
